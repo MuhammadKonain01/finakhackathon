@@ -33,11 +33,14 @@ const Header = () => {
    <Input type="email" placeholder="Email" />   
     </div>
      */}
+
+     <Link href={"/cart"} >
    <div className="h-10 w-10 rounded-full bg-gray-200 flex justify-center items-center relative">
                 <span className="absolute right-1 top-0 rounded-full bg-red-500 h-4 w-4 text-white text-sx text-center">{cartValue}</span>
                 <ShoppingCart className="h-6 w-6" />
         
     </div>
+    </Link>
  
  
  
